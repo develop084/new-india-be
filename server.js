@@ -5,7 +5,7 @@ const cloudinary = require('cloudinary').v2;
 const streamifier = require('streamifier'); // Import streamifier
 const cors = require('cors');
 const app = express();
-const port = process.env.PORT || 3000;
+const port = 9000;
 app.use(cors());
 
 // Connect to MongoDB
